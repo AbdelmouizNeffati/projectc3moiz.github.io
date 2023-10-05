@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image:url(Rectangle\ 7.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  background-position: center center;
+  position: relative;
+  
+  
+}
+body .wave{
+    position: absolute;
+    width: 100%;
+    top: 550px;
+    left: 0%;
+}
+
+ 
+
+.categories{
+    color: #FFF;
+text-align: center;
+font-family: jos;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position:absolute;
+top: 60px;
+left: 1000px;
+
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+li:hover{
+    color: aqua;
+}
+
+@font-face {
+    src: url(Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: int;
+    
+}
+@font-face{
+    src: url(Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+    font-family:jos;
+}
+
+.ch_text{
+    color: #C61919;
+font-family: int;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: 40px;
+left: 60px;
+}
+@font-face{
+    src: url(Twinkle_Star/TwinkleStar-Regular.ttf);
+    font-family:twi;
+    
+}
+
+.History{
+    color: #FFF;
+text-align: left;
+margin-left: 107;
+position: relative;
+top: 280px;;
+left: 107px;
+
+font-family:twi;
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.chin{
+    color: #FFF;
+text-align:left;
+font-family: jos;
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 30px;
+background-color: black;
+width: 716px;
+height: 161px;
+margin: auto;
+padding: 30px;
+opacity: 0.6;
+flex-shrink: 0;
+position: relative;
+top: 250px;;
+
+
+}
